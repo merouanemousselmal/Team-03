@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap');
+html,body
+{
+    padding:0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+.left
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+.logo 
+{
+    border-radius: 40%;
+}
+.h11
+{
+    color:black;
+    margin-left:15px;
+    font-size: 14px;
+}
+.h12
+{
+    color:#e71720;
+    font-size: 14px;
+}
+nav
+{
+    margin: 1rem 2.5rem ;
+    font-size: small;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+nav li
+{
+    margin-right: 1rem;
+}
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: #c70c0c;
+    border-bottom: 3px solid #c70c0c;
+}
+
+.home
+{
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p1
+{
+    display: inline;
+    font-weight:800;
+    font-size: 48px;
+    color: #e71720;
+}
+.span
+{
+    border-top: #e71720 solid 7px;
+}
+.p2
+{
+    color: #333;
+    font-weight:300;
+    font-size:15px ;
+}
+.buttonn
+{
+
+    align-items: center;
+    border-radius: 40px;
+    border-color: #e71720;
+    background-color: #e71720;
+    color: white;
+    width: 26rem;
+    padding: 10px 0;
+    font-size: 11px;
+}
+
+.container{
+    
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 100px;
+    padding:40px ;
+
+}
+.box{
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 250px;
+    background-color: #e71720;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+.box p
+{
+    font-size: 20px;
+}
+.box i
+{
+    font-size: 50px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus
+{
+    height: 480px;
+    width: 480px;
+    padding: 50px 50px;
+}
+.title
+{
+    display: inline;
+    font-size: 60px;
+    color: #333;
+ }
+.paragraph
+{
+    font-weight: 300;
+    color: #000;
+    margin-top: -2px;
+}
+.button1
+{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 10px;
+    color: #fff;
+    background-color: #e71720;
+    border: 15px solid #e71720;
+    border-width: 15px 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 246%;
+}
+
+ section
+{
+    padding: 9rem 11%;
+    margin-bottom: 20px;
+}
+.fitness img
+{
+    height: 17em;
+    width: 61em;
+}
+.fitness
+{
+   position: relative;
+}
+.title2{
+    position: absolute;
+    bottom: 55%;
+    left: 22.7%;
+    font-size: 47px;
+    color: #fff;
+    font-weight: 700;
+}
+.email form
+{
+    position: relative;
+}
+form input
+{
+    position: absolute;
+    bottom: 45%;
+    left: 29.3%;
+    width: 28.6em;
+    height: 33px;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+.button2
+{
+    position: absolute;
+    bottom: 22.35%;
+    left: 39%;
+    text-decoration: none;
+    border: 10px solid #e71720;
+    background-color: #e71720;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    border-radius: 50px;
+    border-width: 13px 51px;
+}
+form input[type="email"]::-webkit-input-placeholder
+{
+    color: #fff;
+}
+
+
+h1
+{
+    text-align: center;
+    color: rgb(58, 56, 56);
+}
+
+.cntnr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    background: rgb(177, 175, 175);
+    width: 500px;
+    height: 430px;
+    margin: -130px 25px;
+}
+.card-image
+{
+    height: 200px;
+    background-size: cover;
+}
+.pic-1
+{
+    background-image: url("image/1.jpg");
+}
+
+.pic-2{
+   background-image: url('image/2.jpg');
+}
+
+.pic-3{
+    background-image: url('image/3.jpg');
+}
+.card h2
+{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.card a
+{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #e71720;
+    padding: 5px 1px;
+    display:block;
+    text-align: center;
+    margin: 0px 95px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.card a:hover
+{
+    background-color:#c70c0c; 
+}
+.card p
+{
+    color: white;
+    text-align: center;
+    padding: 0px 9px 9px 4px;
+}
+.card:hover
+{
+    background-color: rgb(87, 87, 87);
+    color:antiquewhite;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+
+
+
+
